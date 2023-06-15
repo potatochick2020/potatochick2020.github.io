@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "C++ Qt Core vs Qt Quick vs Qt QML vs Qt WIDGET "
-tags: ["C++","GUI","Qt QML","Qt Quick","Qt Core", "Qt WIDGET"]
+title: "C++ Qt Core vs Qt Quick vs Qt QML vs Qt Widget "
+tags: ["C++","GUI","Qt QML","Qt Quick","Qt Core", "Qt Widget"]
 categories: ["C++","GUI","Qt"]
 ---
 
@@ -18,7 +18,7 @@ Qt core is basically a main part of Qt which provide similar functionality like 
 
 Qt Quick and Qt QML Provide the UI part, and it is cross architecture , e.g. could be use in smart fridge, television, or anyware. Where Qt QUICk is the library, and QML is more a description of the UI.
 
-## Qt WIDGET
+## Qt Widget
 
 > Qt Widgets is the traditional desktop-oriented UI model. It supports menus, toolbars, dialogs, and other standard desktop behaviors extremely well2. You can mix QML with a Qt Widgets application using the QQuickWidget class3.
 
