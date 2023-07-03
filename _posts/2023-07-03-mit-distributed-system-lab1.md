@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Self-Study: MIT, Distributed System - 6.824/6.5840 Lab 1(Map-Reduce) "
-tags: ["self-study","Data-Structure-and-Algorithm","Princeton University, Algorithms","English"]
+tags: [ "self-study","Distributed System","MIT","6.824/6.5840", "English" ]
 categories: ["self-study","Distributed System","MIT", "6.824/6.5840"]
 ---
 MIT 6.5840, formerly known as 6.824, is a graduate-level course at the Massachusetts Institute of Technology (MIT) that covers distributed systems. The course presents abstractions and implementation techniques for engineering distributed systems, with major topics including fault tolerance, replication, and consistency. The course also includes several programming labs that give students hands-on experience with building distributed systems.
@@ -24,9 +24,8 @@ This introductory lab serves as a warm-up exercise to familiarize students with 
 ## Thinking Process
 
 ### Read the academic paper
-
-![Figure 1: Execution overview](/assets/img/self-study/6.5840/mapreduce-figure1.png)
-
+ 
+![Figure 1: Execution overview](/assets/img/self-study/6.5840/mapreduce-figure1.PNG)
 This is an figureoverview of the MapReduce system, which consists of two types of servers: a master/coordinator and multiple slave/workers. 
 
 The basic workflow is as follows: 
@@ -38,7 +37,7 @@ The basic workflow is as follows:
 6. The workers then read the intermediate files and create the final output files.
 
 ### Undersanding Map and Reduce function
-1. Understand Responsibility of map and reduce function
+Understand Responsibility of map and reduce function
 The pseudocode are as follow
 
 Map
