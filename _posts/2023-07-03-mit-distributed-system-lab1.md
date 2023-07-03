@@ -9,9 +9,13 @@ MIT 6.5840, formerly known as 6.824, is a graduate-level course at the Massachus
 The labs for the course are using [GO lang](https://go.dev/) and as follows:
 
 Lab 1 - [My Lab Report](https://potatochick2020.github.io/posts/mit-distributed-system-lab1): MapReduce - In this lab, students implement a MapReduce system, which is a programming model for processing large data sets in parallel.
+
 Lab 2: Raft - In this lab, students implement the Raft consensus algorithm, which is used to ensure that multiple servers in a distributed system agree on the same values.
+
 Lab 3: Key-Value storage based on Raft - In this lab, students build a fault-tolerant key-value storage system using the Raft algorithm implemented in Lab 2.
+
 Lab 4: Sharded Key-Value storage - In this lab, students extend their key-value storage system from Lab 3 to support sharding, which allows the system to scale horizontally by partitioning data across multiple servers.
+
 These labs provide students with practical experience in implementing distributed systems and help them understand the challenges and trade-offs involved in building such systems.
 
 
