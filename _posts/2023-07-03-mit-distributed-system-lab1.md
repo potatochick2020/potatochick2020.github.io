@@ -25,7 +25,7 @@ This introductory lab serves as a warm-up exercise to familiarize students with 
 
 ### Read the academic paper
 
-![Figure 1: Execution overview](/assets/img/self-study/6.5840/mapreduce-figure1.PNG)
+![Figure 1: Execution overview](/assets/img/self-study/6.5840/mapreduce-figure1.png)
 
 This is an figureoverview of the MapReduce system, which consists of two types of servers: a master/coordinator and multiple slave/workers. 
 
