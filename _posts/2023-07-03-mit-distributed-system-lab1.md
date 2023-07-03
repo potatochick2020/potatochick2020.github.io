@@ -30,7 +30,7 @@ This introductory lab serves as a warm-up exercise to familiarize students with 
 ### Read the academic paper
  
 ![Figure 1: Execution overview](/assets/img/self-study/6.5840/mapreduce-figure1.PNG)
-This is an figureoverview of the MapReduce system, which consists of two types of servers: a master/coordinator and multiple slave/workers. 
+This is an overview of the MapReduce system, which consists of two types of servers: a master/coordinator and multiple slave/workers. 
 
 The basic workflow is as follows: 
 1. The master receives an input consisting of an array of strings representing the names of the files to be processed, and an integer representing the total number of reduce tasks. 
