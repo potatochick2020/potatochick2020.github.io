@@ -3,7 +3,10 @@ layout: post
 title: "Self-Study: MIT, Distributed System - 6.824/6.5840 Lab 1(Map-Reduce) "
 tags: [ "self-study","Distributed System","MIT","6.824/6.5840", "English" ]
 categories: ["self-study","Distributed System","MIT", "6.824/6.5840"]
+toc: true
 ---
+# Overview
+
 MIT 6.5840, formerly known as 6.824, is a graduate-level course at the Massachusetts Institute of Technology (MIT) that covers distributed systems. The course presents abstractions and implementation techniques for engineering distributed systems, with major topics including fault tolerance, replication, and consistency. The course also includes several programming labs that give students hands-on experience with building distributed systems.
 
 The labs for the course are using [GO lang](https://go.dev/) and as follows:
