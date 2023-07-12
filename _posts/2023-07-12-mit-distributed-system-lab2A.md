@@ -116,3 +116,31 @@ func (rf *Raft) ticker() {
 }
 
 ```
+
+### Test your Raft implementation multiple times.
+As errors can appear randomly. It is not guarantee to reproduce the same error each time. Therefore, I wrote a bash script to test multiple time and save it in to a result.txt
+
+To use this script, you can save it as a file, such as run_command.sh, and make it executable with chmod +x run_command.sh. Then you can run it with your desired command and times, such as:
+
+./run_command.sh 10
+
+This will run the command go test -run 2A -race 10 times and append the output to result.txt. I hope this helps. 😊
+```Bash
+#!/bin/bash
+
+# check if the arguments are valid
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 command times"
+  exit 1
+fi
+
+# assign the arguments to variables 
+times=$1
+
+# loop for the given number of times
+for ((i=1; i<=times; i++))
+do
+  # execute the command and append the output to result.txt
+  go test -run 2A -race >> result.txt
+done
+```
