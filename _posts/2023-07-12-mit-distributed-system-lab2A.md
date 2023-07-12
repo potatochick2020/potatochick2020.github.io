@@ -57,24 +57,25 @@ This is basically what we need to implement in the coming lab
 As first I try to follow my map reduce implementation to implement something like
 ```go
 for i := 0; i < len(rf.peers); i++ {
-		if rf.me == i {
-			continue
-		}
-		requestvote(i);
+	if rf.me == i {
+		continue
 	}
+	requestvote(i);
+}
 ```
 
 However, this does not works well as it might take some time to return, and this usually will leader to an election time out in other custer and start another election. Therefore we should start another go routine here to make sure that each request vote will start smoothly even the previous one does not return in time.
 
 ```go
 for i := 0; i < len(rf.peers); i++ {
-		if rf.me == i {
-			continue
-		}
-		go func(counter int) { 
-			requestvote(counter);
-		}(i)
+	if rf.me == i {
+		continue
 	}
+	// Start the anonymous function in a goroutine
+	go func(counter int) { 
+		requestvote(counter);
+	}(i)
+}
 ```
 
 ### Good use of time package
