@@ -108,19 +108,48 @@ func (rf *Raft) ticker() {
 			rf.mu.Lock() 
 			rf.role = Candidate
 			rf.StartElection()
-			//Reset timeout to be trigger next time
-			rf.electionTimeOut.Reset(RamdomizedElection())
 			rf.mu.Unlock()
 		}
 	}
 }
 
 ```
+### Debug with DPrintf in util.go
+In util.go, A function is provided 
+```go
+package raft
+
+import "log"
+
+// Debugging
+const Debug = false
+
+func DPrintf(format string, a ...interface{}) (n int, err error) {
+	if Debug {
+		log.Printf(format, a...)
+	}
+	return
+}
+```
+Use the provided function instead of fmt.Printf will be a lot better as changing Debug between true and false could control the output log
+
+### warning: term changed even though there were no failures
+This warning is triggered by following code segment ub test_test.go
+```go
+// does the leader+term stay the same if there is no network failure?
+time.Sleep(2 * RaftElectionTimeout)
+term2 := cfg.checkTerms()
+if term1 != term2 {
+	fmt.Printf("warning: term changed even though there were no failures")
+}
+```
+Try to track where did you modify the term variable will helps.
 
 ### Test your Raft implementation multiple times.
 As errors can appear randomly. It is not guarantee to reproduce the same error each time. Therefore, I wrote a bash script to test multiple time and save it in to a result.txt
 
-To use this script, you can save it as a file, such as run_command.sh, and make it executable with chmod +x run_command.sh. Then you can run it with your desired command and times, such as:
+To use this script, you can save it as a file, such as run_command.sh, and make it executable with chmod +x run_command.sh. 
+Then you can run it with your desired command and times, such as:
 
 ./run_command.sh 10
 
