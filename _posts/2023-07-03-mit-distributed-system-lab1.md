@@ -13,7 +13,7 @@ The labs for the course are using [GO lang](https://go.dev/) and as follows:
 
 Lab 1 - [My Lab Report](https://potatochick2020.github.io/posts/mit-distributed-system-lab1): MapReduce - In this lab, students implement a MapReduce system, which is a programming model for processing large data sets in parallel.
 
-Lab 2: Raft - In this lab, students implement the Raft consensus algorithm, which is used to ensure that multiple servers in a distributed system agree on the same values.
+Lab 2 - [2A: My Lab Report](https://potatochick2020.github.io/posts/mit-distributed-system-lab2A): Raft - In this lab, students implement the Raft consensus algorithm, which is used to ensure that multiple servers in a distributed system agree on the same values.
 
 Lab 3: Key-Value storage based on Raft - In this lab, students build a fault-tolerant key-value storage system using the Raft algorithm implemented in Lab 2.
 
