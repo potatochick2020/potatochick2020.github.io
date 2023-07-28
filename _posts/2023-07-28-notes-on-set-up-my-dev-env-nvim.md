@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on my dev environment set up, try to mark down everything I did to set up my dev environemt"
+title: "Notes on Nvim: Difficulty I encounter during set up my profile"
 tags: [ "Development","Environemnt", "English", "Notes" ]
 categories: ["Environment","Dev environment","Software","Ide"]
 toc: true
@@ -22,6 +22,7 @@ In nvim normal mode type `:help vimrc-intro`
 It state the 2 default file path
 - ~/.config/nvim/init.vim         (Unix and OSX) 
 - ~/AppData/Local/nvim/init.vim   (Windows) 
+
 # Live an easier life
 ## Put everything on git
 

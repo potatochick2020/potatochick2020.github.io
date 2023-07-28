@@ -75,3 +75,6 @@ func DPrintf2D(format string, a ...interface{}) (n int, err error) {
 	return
 }
 ```
+
+# Deadlock Detection
+In normal case, we use `sync.Mutex` as mutex, but we could use `deadlock.Mutex` as mutex to detect deadlock. This is developed by sasha-s and [here](https://github.com/sasha-s/go-deadlock) is the repository.
