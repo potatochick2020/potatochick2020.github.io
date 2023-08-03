@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Notes on Nvim: Difficulty I encounter during set up my profile"
-tags: [ "Development","Environemnt", "English", "Notes" ]
-categories: ["Environment","Dev environment","Software","Ide"]
+tags: [ "Development","Environemnt", "English", "Notes", "Vim" ]
+categories: ["Environment","Software","Ide", "Vim"]
 toc: true
 ---
 
