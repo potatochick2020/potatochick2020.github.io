@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Nvim: Difficulty I encounter during set up my profile"
+title: "Nvim: common action/movement"
 tags: [ "Development","Environemnt", "English", "Notes" ]
 categories: ["Environment","Dev environment","Software","Ide"]
 toc: true
