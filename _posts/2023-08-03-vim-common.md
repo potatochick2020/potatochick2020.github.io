@@ -46,7 +46,8 @@ dgg
 
 ### Hop.nvim
 Basically I could go to anywhere of my screen with few click, I type `:HopChar1` for demonstration purpose. In my use case, I had map it to <Leader>-J , which my leader key is space key.
-![hop.nvim demo](/assets/img/dev-environment/software/nvim/hopnvim-demo.gif)
+
+![hop.nvim-demo](/assets/img/dev-environment/software/nvim/hopnvim-demo.gif)
 
 with Hop.nvim, I could do to perform delete until destination. 
 ```vim
