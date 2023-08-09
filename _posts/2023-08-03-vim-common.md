@@ -7,7 +7,7 @@ toc: true
 ---
 
 # Background
-After some set up of vim I want to mark down some common action that I used within my Nvim.
+After some set up of vim I want to mark down some common action that I used within my Nvim. Most of them are quite useful during processing log and unique that only vim have this function
 
 # Actions
 ## Delete
@@ -57,3 +57,22 @@ first char for search
 second char for jump
 ```
 
+## Sorting
+### Sort ascendingly
+```vim
+:sort
+```
+### Sort Descendingly
+```vim
+:sort!
+```
+
+## Undo 
+### Undo
+```vim
+u 
+```
+### Redo
+```vim
+C-R
+```
