@@ -8,3 +8,8 @@ categories: ["人生 Life"]
 試下寫blog，記錄低自己20歲嘅青春、漫長嘅coding修煉，以及往後嘅人生。    
 Blog Template: [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/)
 
+> Google Translation 
+{: .prompt-tip }
+
+Try writing a blog to record my 20-year-old youth, long coding practice, and future life.
+Blog Template: [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/)
