@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nvim: common action/movement"
+title: "Linux terminal basic movement"
 tags: [ "Development","Environemnt", "English", "Notes", "Terminal" ]
 categories: ["Environment","Dev environment","Software","Terminal"]
 toc: true
